@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(154, 44, 60); /* Added for readability */
+    
+}
+
+header {
+    background-color: rgb(154, 44, 60);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 400px; /* Good for responsiveness */
+    margin-bottom: 20px;
+}
+
+nav a {
+    /* These properties make the links look like buttons */
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 12px 22px; /* Adds space around the text */
+    text-decoration: none; /* Removes the link underline */
+    border-radius: 5px; /* Creates rounded corners */
+    margin: 0 10px; /* Adds space between buttons */
+    font-weight: bold;
+    display: inline-block; /* Allows margin and padding to work correctly */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+/* This changes the style when you hover over a button */
+nav a:hover {
+    background-color: #723333; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Adds top/bottom margin and centers the block */
+    line-height: 1.6; /* Improves readability */
+    border-radius: 8px; /* Optional: adds nice rounded corners */
+}
+
+/* Target elements inside main specifically */
+main h1 {
+    text-align: center;
+}
+
+main img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%; /* Makes image responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px;
+}
+
+footer {
+    /* This is the key change to center your footer buttons */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
